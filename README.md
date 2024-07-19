@@ -1,6 +1,6 @@
-GetAI: AI-Powered Barcode Scanner and Chatbot
+#GetAI: AI-Powered Barcode Scanner and Chatbot
 
-Overview
+#Overview
 
 GetAI is an AI-powered barcode scanning system developed by our team for the A2SV Hackathon. Our goal is to provide comprehensive and understandable product information to consumers in Africa, addressing the gap in localized and easily accessible usage instructions, safety guidelines, and detailed descriptions.
 Problem Statement
