@@ -67,10 +67,41 @@ GetAI plans to monetize its product through:
 
 ## Installation and Setup
 
+To get started with GetAI, follow these steps to install the necessary libraries and tools:
+
+1. **Ensure Python 3.x is installed on your machine**:
+    - Download and install Python from the [official website](https://www.python.org/downloads/).
+
+2. **Install FastAPI**:
+    - FastAPI is required for building the backend of our application. Install it using pip:
+      ```sh
+      pip install fastapi==0.70.0
+      ```
+
+3. **Install Streamlit**:
+    - Streamlit is used for creating the front-end of our application. Install it using pip:
+      ```sh
+      pip install streamlit==1.3.0
+      ```
+
+4. **Install other dependencies**:
+    - You may also need to install additional libraries. You can find all required dependencies in the `requirements.txt` file. Install them using:
+      ```sh
+      pip install -r requirements.txt
+      ```
+
+5. **Run the application**:
+    - To start the application, navigate to the project directory and run:
+      ```sh
+      streamlit run app.py
+      ```
+
+For detailed installation instructions and troubleshooting, refer to our [documentation](#).
+
 ## Contributing
 
-## License
+Currently, GetAI is not an open-source project. However, we welcome contributions from partners and collaborators who share our vision of enhancing consumer access to product information in Africa.
 
-## Acknowledgements
+If you are interested in contributing to our project, please contact us at [contact@getai.com](Obimbaking@gmail.com) for more information on partnership opportunities and collaboration.
 
-A2SV for hosting the hackathon.
+We look forward to working with like-minded individuals and organizations to further our mission.
