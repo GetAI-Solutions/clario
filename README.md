@@ -4,6 +4,8 @@
 #Overview
 
 GetAI is an AI-powered barcode scanning system developed by our team for the A2SV Hackathon. Our goal is to provide comprehensive and understandable product information to consumers in Africa, addressing the gap in localized and easily accessible usage instructions, safety guidelines, and detailed descriptions.
+
+
 Problem Statement
 
 Consumers in Africa face significant challenges in accessing detailed product information, especially in the beauty, healthcare, and food sectors. The lack of localized and easily accessible information can lead to improper product use, health risks, and a lack of consumer confidence. Furthermore, the absence of integration of local languages and cultural relevance complicates this issue, making it difficult for a diverse consumer base to make informed decisions.
