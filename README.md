@@ -108,7 +108,7 @@ We look forward to working with like-minded individuals and organizations to fur
 
 ## Authors
 - Obimba Joshua 
-- Stephen Kwaku Azongo
+- Stephen Kwaku Azongo - stephenazongo77@gmail.com
 - Adeniran Owolabi 
 - Asya Haji 
 - Ismael Muzemil: ismael.mdev@gmail.com
