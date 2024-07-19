@@ -106,6 +106,14 @@ If you are interested in contributing to our project, please contact us at [cont
 
 We look forward to working with like-minded individuals and organizations to further our mission.
 
+## Authors
+- Obimba Joshua 
+- Stephen Kwaku Azongo
+- Adeniran Owolabi 
+- Asya Haji 
+- Ismael Muzemil: ismael.mdev@gmail.com
+
+
 ## Acknowledgements
 
 A2SV for hosting the hackathon.
