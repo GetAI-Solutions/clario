@@ -110,7 +110,7 @@ We look forward to working with like-minded individuals and organizations to fur
 - Obimba Joshua 
 - Stephen Kwaku Azongo - stephenazongo77@gmail.com
 - Adeniran Owolabi 
-- Asya Haji 
+- Asya Haji: nasbyhajj18@gmail.com
 - Ismael Muzemil: ismael.mdev@gmail.com
 
 
