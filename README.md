@@ -105,3 +105,7 @@ Currently, GetAI is not an open-source project. However, we welcome contribution
 If you are interested in contributing to our project, please contact us at [contact@getai.com](Obimbaking@gmail.com) for more information on partnership opportunities and collaboration.
 
 We look forward to working with like-minded individuals and organizations to further our mission.
+
+## Acknowledgements
+
+A2SV for hosting the hackathon.
