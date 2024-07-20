@@ -1,8 +1,11 @@
 import streamlit as st
+import pandas as pd
 
 if __name__ == "__main__":
 
     st.title("GetAI DEMO")
+
+    st.session_state["data"] = pd.read_csv("data.csv")
 
     st.write('''.''')
 

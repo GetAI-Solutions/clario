@@ -41,6 +41,7 @@ def clf():
             st.write("Found barcodes:")
             for barcode in barcodes:
                 st.write(f"- Data: {barcode.data.decode('utf-8')}, Type: {barcode.type}")
+                return barcode.data.decode('utf-8')
         else:
             st.error("No barcode detected")
         
@@ -60,6 +61,7 @@ def real_time():
             st.write("Found barcodes:")
             for barcode in barcodes:
                 st.write(f"- Data: {barcode.data.decode('utf-8')}, Type: {barcode.type}")
+                return barcode.data.decode('utf-8')
         else:
             st.error("No barcode detected")
         
@@ -69,9 +71,12 @@ def run_selection():
     if sub_sel == "Info":
         home()
     elif sub_sel == "Classify local Image":
-        result = clf()
+        barcode_d = clf()
     elif sub_sel == "Realtime Classification":
-        result = real_time()
+        barcode_d = real_time()
+
+    content = st.session_state["data"][st.session_state["data"]["product_code"] == int(barcode_d)]
+    st.write(content)
 
 st.title("Get AI Demo")
 
