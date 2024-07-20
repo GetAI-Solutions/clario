@@ -101,9 +101,17 @@ def run_selection():
     if barcode_d != None:
         content = st.session_state["data"][st.session_state["data"]["product_code"]== int(barcode_d)]
         st.session_state["product"] = content
+        if "past" in st.session_state:
+            st.session_state['past'] = []
+        if "generated" in st.session_state:
+            st.session_state["generated"] = []
+        if "input_message_key" in st.session_state:
+            st.session_state["input_message_key"] = ""
 
         st.header(f'Identified product is: {content["product_name"].iloc[0]}')
         prompt = generate_prompt(content["details"])
+
+        st.info("Generating Summary of the product......")
 
         response = ""
 
@@ -114,7 +122,8 @@ def run_selection():
             response += str(event)
         
         st.write(response)
-        st.info("You can now proceed to chat page to gain more information about the identified product")
+
+        st.success("You can now proceed to chat page to gain more information about the identified product")
 
 st.title("Get AI Demo")
 
