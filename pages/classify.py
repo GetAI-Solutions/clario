@@ -4,6 +4,24 @@ from PIL import Image
 import numpy as np
 import cv2
 from pyzbar import pyzbar
+import replicate
+
+import os
+os.environ["REPLICATE_API_TOKEN"] = st.secrets["REPLICATE_API_TOKEN"]
+
+def generate_prompt(content):
+    template = f"""
+
+    You are a friendly AI assistant to help users know more about a product. The dteails of the product are provided in the <content> tag below
+
+    <content>{content}</content>
+
+    Provide a summary of the product for the user
+
+    """
+
+    return template
+
 
 def scan_barcode_from_image(image):
     image_np = np.array(image.convert('RGB'))
@@ -68,15 +86,29 @@ def real_time():
 
 def run_selection():
     sub_sel = st.sidebar.radio("Select Option", ["Info", "Classify local Image", "Realtime Classification"])
+    barcode_d = None
     if sub_sel == "Info":
         home()
     elif sub_sel == "Classify local Image":
         barcode_d = clf()
     elif sub_sel == "Realtime Classification":
         barcode_d = real_time()
+    
+    if barcode_d != None:
+        content = st.session_state["data"][st.session_state["data"]["product_code"]== int(barcode_d)]
 
-    content = st.session_state["data"][st.session_state["data"]["product_code"] == int(barcode_d)]
-    st.write(content)
+        st.header(f'Identified product is: {content["product_name"].iloc[0]}')
+        prompt = generate_prompt(content["details"])
+
+        response = ""
+
+        for event in replicate.stream("snowflake/snowflake-arctic-instruct",
+                        input={"prompt": prompt,
+                                "temperature": 0.2
+                                }):
+            response += str(event)
+        
+        st.write(response)
 
 st.title("Get AI Demo")
 
