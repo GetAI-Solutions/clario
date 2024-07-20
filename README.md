@@ -107,7 +107,7 @@ If you are interested in contributing to our project, please contact us at [cont
 We look forward to working with like-minded individuals and organizations to further our mission.
 
 ## Authors
-- Obimba Joshua 
+- Obimba Joshua - Obimbaking@gmail.com
 - Stephen Kwaku Azongo - stephenazongo77@gmail.com
 - Adeniran Owolabi 
 - Asya Haji: nasbyhajj18@gmail.com
