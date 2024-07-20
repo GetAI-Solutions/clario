@@ -2,12 +2,16 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import numpy as np
+import pandas as pd
 import cv2
 from pyzbar import pyzbar
 import replicate
 
 import os
 os.environ["REPLICATE_API_TOKEN"] = st.secrets["REPLICATE_API_TOKEN"]
+
+if "data" not in st.session_state:
+    st.session_state["data"] = pd.read_csv("data.csv")
 
 def generate_prompt(content):
     template = f"""
@@ -96,6 +100,7 @@ def run_selection():
     
     if barcode_d != None:
         content = st.session_state["data"][st.session_state["data"]["product_code"]== int(barcode_d)]
+        st.session_state["product"] = content
 
         st.header(f'Identified product is: {content["product_name"].iloc[0]}')
         prompt = generate_prompt(content["details"])
@@ -109,6 +114,7 @@ def run_selection():
             response += str(event)
         
         st.write(response)
+        st.info("You can now proceed to chat page to gain more information about the identified product")
 
 st.title("Get AI Demo")
 
