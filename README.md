@@ -2,6 +2,8 @@
 
 ## Demo link - [Here](https://getaidemo.streamlit.app/)
 
+## Figma link - [Link](https://www.figma.com/design/iuHO5dVzZhCf24CihBPoLd?node-id=0-1)
+
 ## Overview
 
 GetAI is an AI-powered barcode scanning system developed by our team for the A2SV Hackathon. Our goal is to provide comprehensive and understandable product information to consumers in Africa, addressing the gap in localized and easily accessible usage instructions, safety guidelines, and detailed descriptions.
