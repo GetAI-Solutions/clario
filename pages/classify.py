@@ -110,7 +110,7 @@ def run_selection():
                 st.session_state["input_message_key"] = ""
 
             st.header(f'Identified product is: {content["product_name"].iloc[0]}')
-            prompt = generate_prompt(content["details"])
+            prompt = generate_prompt(content["details"].iloc[0])
 
             st.info("Generating Summary of the product......")
 
