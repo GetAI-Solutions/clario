@@ -4,3 +4,4 @@ opencv-python-headless
 pandas
 replicate
 streamlit_chat
+openai
