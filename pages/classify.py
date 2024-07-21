@@ -126,7 +126,34 @@ def run_selection():
 
             st.success("You can now proceed to chat page to gain more information about the identified product")
         else:
-            st.error("PRODUCT NOT FOUND.......WE ARE STILL GETTING MORE PRODUCTS, PLEASE CHECK BACK LATER")
+            content = st.session_state["data"][st.session_state["data"]["product_code"]== str(barcode_d)]
+            if len(content) != 0:
+                st.session_state["product"] = content
+                if "past" in st.session_state:
+                    st.session_state['past'] = []
+                if "generated" in st.session_state:
+                    st.session_state["generated"] = []
+                if "input_message_key" in st.session_state:
+                    st.session_state["input_message_key"] = ""
+
+                st.header(f'Identified product is: {content["product_name"].iloc[0]}')
+                prompt = generate_prompt(content["details"].iloc[0])
+
+                st.info("Generating Summary of the product......")
+
+                response = ""
+
+                for event in replicate.stream("snowflake/snowflake-arctic-instruct",
+                                input={"prompt": prompt,
+                                        "temperature": 0.2
+                                        }):
+                    response += str(event)
+                
+                st.write(response)
+
+                st.success("You can now proceed to chat page to gain more information about the identified product")
+            else:
+                st.error("PRODUCT NOT FOUND.......WE ARE STILL GETTING MORE PRODUCTS, PLEASE CHECK BACK LATER")
 
 st.title("Get AI Demo")
 

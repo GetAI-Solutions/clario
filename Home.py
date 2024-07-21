@@ -12,6 +12,7 @@ if __name__ == "__main__":
 st.title("How to Test Demo")
 st.subheader("1. Select the classification")
 st.subheader("2. Select classification method: ")
+st.subheader("3. You can select any of the barcodes here -  https://github.com/oadeniran/GetAI-dep/tree/main/Demo-barcode")
 st.subheader("4. Download the selected image to device then go back to app")
 st.subheader("5. Upload the just downloaded image and the model predicts")
 
