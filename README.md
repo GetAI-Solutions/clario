@@ -50,6 +50,8 @@ Consumers should choose GetAI over alternative methods for several reasons:
 - **Non-Governmental Organizations (NGOs)**: Empowering communities with product knowledge.
 - **Mobile Network Operators (MNOs)**: Offering value-added services through USSD integration, expanding reach to users without smartphones or internet access.
 
+
+
 ## PURPOSE OF THE PROJECT
 The purpose of the GetAI project is to create an AI-powered barcode scanner and chatbot that helps people in Africa easily access important product information. Many consumers in Africa struggle to find clear and detailed information about products, especially in the areas of beauty, healthcare, and food. This lack of information can lead to improper product use and health risks. GetAI aims to solve this problem by providing a simple way for users to scan barcodes and receive comprehensive product details in their local languages. This includes usage instructions, safety guidelines, ingredient lists, and even suggestions for similar products or local alternatives. The goal is to make product information accessible, accurate, and relevant, empowering consumers to make informed and safe choices
 
