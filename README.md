@@ -1,9 +1,5 @@
 # GetAI: AI-Powered Barcode Scanner and Chatbot
 
-## Demo link - [Here](https://getaidemo.streamlit.app/)
-
-## Figma link - [Link](https://www.figma.com/design/iuHO5dVzZhCf24CihBPoLd?node-id=0-1)
-
 ## Overview
 
 GetAI is an AI-powered barcode scanning system developed by our team for the A2SV Hackathon. Our goal is to provide comprehensive and understandable product information to consumers in Africa, addressing the gap in localized and easily accessible usage instructions, safety guidelines, and detailed descriptions.
@@ -43,9 +39,8 @@ Consumers should choose GetAI over alternative methods for several reasons:
 - **Multilingual Support**: Support for multiple local languages ensures accessibility to a diverse user base across Africa.
 - **Accuracy and Reliability**: AI-powered system delivers accurate and real-time information, eliminating inconsistencies.
 - **Ease of Use**: Simple barcode scanning functionality and intuitive interface design.
-- **Alternative Access Methods**: Integration of USSD technology allows users with basic mobile phones to access detailed product information.
 - **Empowerment through Knowledge**: Detailed product information helps consumers make informed decisions, promotes safety, and supports local businesses.
-- **Accessibility**: Offline capabilities and mobile-friendly design ensure accessibility in areas with limited internet connectivity.
+- **Accessibility**: mobile-friendly design ensure accessibility in areas with internet connectivity.
 
 ## Target Customer Segments
 
@@ -55,17 +50,66 @@ Consumers should choose GetAI over alternative methods for several reasons:
 - **Non-Governmental Organizations (NGOs)**: Empowering communities with product knowledge.
 - **Mobile Network Operators (MNOs)**: Offering value-added services through USSD integration, expanding reach to users without smartphones or internet access.
 
-## Monetization Strategies
+## PURPOSE OF THE PROJECT
+The purpose of the GetAI project is to create an AI-powered barcode scanner and chatbot that helps people in Africa easily access important product information. Many consumers in Africa struggle to find clear and detailed information about products, especially in the areas of beauty, healthcare, and food. This lack of information can lead to improper product use and health risks. GetAI aims to solve this problem by providing a simple way for users to scan barcodes and receive comprehensive product details in their local languages. This includes usage instructions, safety guidelines, ingredient lists, and even suggestions for similar products or local alternatives. The goal is to make product information accessible, accurate, and relevant, empowering consumers to make informed and safe choices
 
-GetAI plans to monetize its product through:
+## STRUCTURE OF THE PROJECT
 
-- **Subscription Plans**: Tiered subscription plans with varying levels of access to features and content.
-- **Pay-per-Scan Model**: Small fee per barcode scan for occasional users.
-- **Enterprise Solutions**: Tailored solutions for large retailers, manufacturers, and distributors.
-- **Advertisement Partnerships**: Targeted advertisements and promotions within the app.
-- **Data Analytics Services**: Anonymized data analytics services for businesses.
-- **Premium Features and Add-ons**: Enhancements like ad-free browsing, exclusive content, or advanced search capabilities.
-- **Partnerships and Sponsorships**: Collaborations with local businesses, NGOs, or government agencies.
+1. **User Interface**
+
+**Mobile App**
+The user interface of the GetAI app is designed to be user-friendly and intuitive. Users interact with the app by opening it on their smartphone, where they are greeted with a clean and simple splash screen.
+![spash screen](images/splash screen.jpeg)
+
+The app then guides them through account setup, which includes creating an account, verifying their phone number, and entering personal details.
+<p align="center">
+  <img src="images/info.jpeg" alt="Image 1" width="200"/>
+  <img src="images/info2.jpeg" alt="Image 2" width="200"/>
+  <img src="images/info3.jpeg" alt="Image 3" width="200"/>
+  <img src="images/info4.jpeg" alt="Image 3" width="200"/>
+</p>
+
+<p align="center">
+  <img src="images/info5.jpeg" alt="Image 1" width="200"/>
+  <img src="images/info6.jpeg" alt="Image 2" width="200"/>
+  <img src="images/info7.jpeg" alt="Image 3" width="200"/>
+  <img src="images/info8.jpeg" alt="Image 3" width="200"/>
+</p>
+
+Once inside the app, users can scan product barcodes using their smartphone camera. The barcode scanning process is straightforward, with a dedicated scanning screen that provides clear visual feedback, indicating when the barcode is correctly captured. After scanning, the app quickly retrieves and displays detailed product information, such as usage instructions and safety guidelines.
+
+<p align="center">
+  <img src="images/scan.jpeg" alt="Image 1" width="200"/>
+  <img src="images/scan4.jpeg" alt="Image 1" width="200"/>
+  <img src="images/scan3.jpeg" alt="Image 1" width="200"/>
+   <img src="images/product.jpeg" alt="Image 1" width="200"/>
+ 
+</p>
+
+The app also includes a navigation menu  that allows users to easily access different features, such as their product history, settings, and additional resources.
+![spash screen](images/history.jpeg)
+
+
+**2. Barcode Scanning Module**
+
+ **Scanning Technology**:Our system utilizes the camera on a smartphone to scan barcodes. The camera captures the barcode image, and advanced image processing algorithms are employed to accurately decode the barcode, ensuring that even low-quality images or distorted barcodes can be read effectively.
+
+  **Data Extraction**: Once the barcode is scanned, the system reads the encoded data and retrieves the relevant product information from our database. The application cross-references the barcode with entries in our MongoDB database to pull up detailed product information. If the product isn't found in the database, alternative methods like external API queries or web scraping are triggered to provide the user with relevant information. This ensures that users receive accurate and timely product data, regardless of the barcode source.
+
+  **3. AI-Powered Product Information Retrieval**
+  1. *AI Integration*: Our system apply AI models to interpret and provide accurate product information. By utilizing generative AI, the system can analyze barcode data and cross-reference it with our database to pull detailed product information. The AI models are trained to recognize product categories, interpret ingredient lists, and provide safety guidelines based on the scanned barcode. If the product isn't found in our database, AI assists in fetching relevant information from alternative sources, ensuring that users always have access to accurate and reliable data.
+
+  2. *Product Database*: All product information is stored in a well-organized MongoDB database. This database includes comprehensive details such as usage instructions, safety guidelines, ingredient lists, and other relevant information. The database is continuously updated with new products, ensuring that users receive the most current and accurate data. Additionally, the database is designed to handle large volumes of data efficiently, allowing for quick retrieval and processing of information.
+
+**4. Multilingual Support**
+
+**5. Backend Infrastructure**
+
+**7. Security and Privacy**
+
+**8. Feedback and Improvement Loop**
+
+## HOW OUR CHOOSEN GENERATIVE AI MODEL ARE SOLVING THE PROBLEM
 
 ## Installation and Setup
 
@@ -109,11 +153,11 @@ If you are interested in contributing to our project, please contact us at [cont
 We look forward to working with like-minded individuals and organizations to further our mission.
 
 ## Authors
-- Obimba Joshua - Obimbaking@gmail.com
-- Stephen Kwaku Azongo - stephenazongo77@gmail.com
 - Adeniran Owolabi 
 - Asya Haji: nasbyhajj18@gmail.com
 - Ismael Muzemil: ismael.mdev@gmail.com
+- Obimba Joshua - Obimbaking@gmail.com
+- Stephen Kwaku Azongo - stephenazongo77@gmail.com
 
 
 ## Acknowledgements
