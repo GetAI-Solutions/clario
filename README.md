@@ -59,35 +59,37 @@ The purpose of the GetAI project is to create an AI-powered barcode scanner and 
 
 **Mobile App**
 The user interface of the GetAI app is designed to be user-friendly and intuitive. Users interact with the app by opening it on their smartphone, where they are greeted with a clean and simple splash screen.
+
 ![spash screen](images/splash screen.jpeg)
 
 The app then guides them through account setup, which includes creating an account, verifying their phone number, and entering personal details.
 <p align="center">
-  <img src="images/info.jpeg" alt="Image 1" width="200"/>
-  <img src="images/info2.jpeg" alt="Image 2" width="200"/>
-  <img src="images/info3.jpeg" alt="Image 3" width="200"/>
-  <img src="images/info4.jpeg" alt="Image 3" width="200"/>
+  <img src="images/info.jpeg" alt="Image info" width="200"/>
+  <img src="images/info2.jpeg" alt="Image info" width="200"/>
+  <img src="images/info3.jpeg" alt="Image info" width="200"/>
+  <img src="images/info4.jpeg" alt="Image info" width="200"/>
 </p>
 
 <p align="center">
-  <img src="images/info5.jpeg" alt="Image 1" width="200"/>
-  <img src="images/info6.jpeg" alt="Image 2" width="200"/>
-  <img src="images/info7.jpeg" alt="Image 3" width="200"/>
-  <img src="images/info8.jpeg" alt="Image 3" width="200"/>
+  <img src="images/info5.jpeg" alt="Image info" width="200"/>
+  <img src="images/info6.jpeg" alt="Image info" width="200"/>
+  <img src="images/info7.jpeg" alt="Image info" width="200"/>
+  <img src="images/info8.jpeg" alt="Image info" width="200"/>
 </p>
 
 Once inside the app, users can scan product barcodes using their smartphone camera. The barcode scanning process is straightforward, with a dedicated scanning screen that provides clear visual feedback, indicating when the barcode is correctly captured. After scanning, the app quickly retrieves and displays detailed product information, such as usage instructions and safety guidelines.
 
 <p align="center">
-  <img src="images/scan.jpeg" alt="Image 1" width="200"/>
-  <img src="images/scan4.jpeg" alt="Image 1" width="200"/>
-  <img src="images/scan3.jpeg" alt="Image 1" width="200"/>
-   <img src="images/product.jpeg" alt="Image 1" width="200"/>
+  <img src="images/scan.jpeg" alt="scan" width="200"/>
+  <img src="images/scan4.jpeg" alt="scan" width="200"/>
+  <img src="images/scan3.jpeg" alt="scan" width="200"/>
+   <img src="images/product.jpeg" alt="product" width="200"/>
  
 </p>
 
 The app also includes a navigation menu  that allows users to easily access different features, such as their product history, settings, and additional resources.
-![spash screen](images/history.jpeg)
+<img src="images/history.jpeg" alt="history" width="200"/>
+<!-- ![spash screen](images/history.jpeg) -->
 
 
 **2. Barcode Scanning Module**
@@ -97,17 +99,21 @@ The app also includes a navigation menu  that allows users to easily access diff
   **Data Extraction**: Once the barcode is scanned, the system reads the encoded data and retrieves the relevant product information from our database. The application cross-references the barcode with entries in our MongoDB database to pull up detailed product information. If the product isn't found in the database, alternative methods like external API queries or web scraping are triggered to provide the user with relevant information. This ensures that users receive accurate and timely product data, regardless of the barcode source.
 
   **3. AI-Powered Product Information Retrieval**
-  1. *AI Integration*: Our system apply AI models to interpret and provide accurate product information. By utilizing generative AI, the system can analyze barcode data and cross-reference it with our database to pull detailed product information. The AI models are trained to recognize product categories, interpret ingredient lists, and provide safety guidelines based on the scanned barcode. If the product isn't found in our database, AI assists in fetching relevant information from alternative sources, ensuring that users always have access to accurate and reliable data.
+  1. **AI Integration**: Our system apply AI models to interpret and provide accurate product information. By utilizing generative AI, the system can analyze barcode data and cross-reference it with our database to pull detailed product information. The AI models are trained to recognize product categories, interpret ingredient lists, and provide safety guidelines based on the scanned barcode. If the product isn't found in our database, AI assists in fetching relevant information from alternative sources, ensuring that users always have access to accurate and reliable data.
 
-  2. *Product Database*: All product information is stored in a well-organized MongoDB database. This database includes comprehensive details such as usage instructions, safety guidelines, ingredient lists, and other relevant information. The database is continuously updated with new products, ensuring that users receive the most current and accurate data. Additionally, the database is designed to handle large volumes of data efficiently, allowing for quick retrieval and processing of information.
+  2. **Product Database**: All product information is stored in a well-organized MongoDB database. This database includes comprehensive details such as usage instructions, safety guidelines, ingredient lists, and other relevant information. The database is continuously updated with new products, ensuring that users receive the most current and accurate data. Additionally, the database is designed to handle large volumes of data efficiently, allowing for quick retrieval and processing of information.
 
 **4. Multilingual Support**
 
 **5. Backend Infrastructure**
 
-**7. Security and Privacy**
+**6. Feedback and Improvement Loop**
+**Feedback Collection**: Users can provide feedback through various channels, such as in-app feedback forms, surveys, and direct support interactions. This feedback is used to identify areas for improvement and to address user concerns.
+**Feedback Analysis**: Collected feedback is analyzed to detect common issues and trends. This analysis helps in prioritizing enhancements and addressing user needs effectively.
+AI Learning:
 
-**8. Feedback and Improvement Loop**
+**Regular Updates**: The AI models are regularly updated with new data to improve their accuracy and performance. This includes incorporating user interactions, feedback, and new information to keep the models current and effective.
+Training and Refinement: Continuous training and refinement of AI models are conducted to enhance their learning capabilities. This process involves using advanced machine learning techniques and data from diverse sources to improve the AI’s ability to provide relevant and accurate information.
 
 ## HOW OUR CHOOSEN GENERATIVE AI MODEL ARE SOLVING THE PROBLEM
 
