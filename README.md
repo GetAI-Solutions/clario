@@ -60,7 +60,8 @@ The purpose of the GetAI project is to create an AI-powered barcode scanner and 
 **Mobile App**
 The user interface of the GetAI app is designed to be user-friendly and intuitive. Users interact with the app by opening it on their smartphone, where they are greeted with a clean and simple splash screen.
 
-![spash screen](images/splash screen.jpeg)
+<img src="images/splash screen.jpeg" alt="history" width="200"/>
+<!-- ![spash screen](images/splash screen.jpeg) -->
 
 The app then guides them through account setup, which includes creating an account, verifying their phone number, and entering personal details.
 <p align="center">
@@ -88,6 +89,7 @@ Once inside the app, users can scan product barcodes using their smartphone came
 </p>
 
 The app also includes a navigation menu  that allows users to easily access different features, such as their product history, settings, and additional resources.
+
 <img src="images/history.jpeg" alt="history" width="200"/>
 <!-- ![spash screen](images/history.jpeg) -->
 
