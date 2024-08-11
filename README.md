@@ -93,9 +93,6 @@ The app also includes a navigation menu  that allows users to easily access diff
 
 <img src="images/history.jpeg" alt="history" width="200"/>
 
-
-
-**Frontend Code Repository**
 To explore the frontend code of the GetAI mobile application, implemented using JavaScript's React Native framework tailored for both iOS and Android, you can visit the [frontend repository](https://github.com/GetAI-Solutions/getai-mobile-app). This repository also contains a brief README file that highlights the structure of the project, its purpose.
 
 
