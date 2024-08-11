@@ -61,9 +61,10 @@ The purpose of the GetAI project is to create an AI-powered barcode scanner and 
 
 **Mobile App**
 The user interface of the GetAI app is designed to be user-friendly and intuitive. Users interact with the app by opening it on their smartphone, where they are greeted with a clean and simple splash screen.
-
+<p>
 <img src="images/splash screen.jpeg" alt="history" width="200"/>
-<!-- ![spash screen](images/splash screen.jpeg) -->
+<img src="images/account.jpeg" alt="history" width="200"/>
+</p>
 
 The app then guides them through account setup, which includes creating an account, verifying their phone number, and entering personal details.
 <p align="center">
@@ -84,10 +85,9 @@ Once inside the app, users can scan product barcodes using their smartphone came
 
 <p align="center">
   <img src="images/scan.jpeg" alt="scan" width="200"/>
-  <img src="images/scan4.jpeg" alt="scan" width="200"/>
+  <img src="images/scan 4.jpeg" alt="scan" width="200"/>
   <img src="images/scan3.jpeg" alt="scan" width="200"/>
    <img src="images/product.jpeg" alt="product" width="200"/>
- 
 </p>
 
 The app also includes a navigation menu  that allows users to easily access different features, such as their product history, settings, and additional resources.
@@ -107,11 +107,9 @@ The app also includes a navigation menu  that allows users to easily access diff
 
   2. **Product Database**: All product information is stored in a well-organized MongoDB database. This database includes comprehensive details such as usage instructions, safety guidelines, ingredient lists, and other relevant information. The database is continuously updated with new products, ensuring that users receive the most current and accurate data. Additionally, the database is designed to handle large volumes of data efficiently, allowing for quick retrieval and processing of information.
 
-**4. Multilingual Support**
+**4. Backend Infrastructure**
 
-**5. Backend Infrastructure**
-
-**6. Feedback and Improvement Loop**
+**5. Feedback and Improvement Loop**
 **Feedback Collection**: Users can provide feedback through various channels, such as in-app feedback forms, surveys, and direct support interactions. This feedback is used to identify areas for improvement and to address user concerns.
 **Feedback Analysis**: Collected feedback is analyzed to detect common issues and trends. This analysis helps in prioritizing enhancements and addressing user needs effectively.
 AI Learning:
@@ -120,6 +118,20 @@ AI Learning:
 Training and Refinement: Continuous training and refinement of AI models are conducted to enhance their learning capabilities. This process involves using advanced machine learning techniques and data from diverse sources to improve the AI’s ability to provide relevant and accurate information.
 
 ## HOW OUR CHOOSEN GENERATIVE AI MODEL ARE SOLVING THE PROBLEM
+We selected (our model) to help solve the problem of providing detailed, accessible product information to consumers in Africa. Here's how this our model addresses the challenges:
+    **Providing Accurate Information:**
+        The AI is capable of processing vast amounts of data and generating accurate and reliable product details. When a user scans a barcode, the AI quickly pulls up relevant information, such as how to use the product, its ingredients, and safety guidelines.
+
+    **Answering User Questions:**
+        The AI is not just limited to providing preset information; it can also answer specific questions that users might have about a product. For example, if someone wants to know whether a product contains a certain ingredient, the AI can generate that information on the spot.
+
+    **Ease of Use:**
+        The AI makes the app easy to use by guiding users through the process of scanning barcodes and finding information. Its ability to generate natural, conversational responses means that users don't need any technical knowledge to interact with it.
+
+    **Multilanguage Accessibility:**
+        To make the app accessible to users across different regions, we will integrate an API that supports multiple local languages. This ensures that users can access product information in a language they are comfortable with, regardless of where they are located.
+
+
 
 ## Installation and Setup
 
