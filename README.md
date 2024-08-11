@@ -121,12 +121,9 @@ Training and Refinement: Continuous training and refinement of AI models are con
 ## HOW OUR CHOOSEN GENERATIVE AI MODEL ARE SOLVING THE PROBLEM
 We selected (our model) to help solve the problem of providing detailed, accessible product information to consumers in Africa. Here's how this our model addresses the challenges:
 
-**Providing Accurate Information:**T he AI is capable of processing vast amounts of data and generating accurate and reliable product details. When a user scans a barcode, the AI quickly pulls up relevant information, such as how to use the product, its ingredients, and safety guidelines.
-
+**Providing Accurate Information:** The AI is capable of processing vast amounts of data and generating accurate and reliable product details. When a user scans a barcode, the AI quickly pulls up relevant information, such as how to use the product, its ingredients, and safety guidelines.
 **Answering User Questions:** The AI is not just limited to providing preset information; it can also answer specific questions that users might have about a product. For example, if someone wants to know whether a product contains a certain ingredient, the AI can generate that information on the spot.
-
 **Ease of Use:** The AI makes the app easy to use by guiding users through the process of scanning barcodes and finding information. Its ability to generate natural, conversational responses means that users don't need any technical knowledge to interact with it.
-
 **Multilanguage Accessibility:** To make the app accessible to users across different regions, we will integrate an API that supports multiple local languages. This ensures that users can access product information in a language they are comfortable with, regardless of where they are located.
 
 
