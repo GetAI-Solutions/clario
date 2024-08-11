@@ -48,7 +48,6 @@ Consumers should choose GetAI over alternative methods for several reasons:
 - **Retailers and Distributors**: Enhancing customer experience by providing comprehensive product details and promoting locally made alternatives.
 - **Government Agencies and Regulatory Bodies**: Promoting consumer safety and ensuring compliance through accessible product information.
 - **Non-Governmental Organizations (NGOs)**: Empowering communities with product knowledge.
-- **Mobile Network Operators (MNOs)**: Offering value-added services through USSD integration, expanding reach to users without smartphones or internet access.
 
 
 
@@ -93,7 +92,11 @@ Once inside the app, users can scan product barcodes using their smartphone came
 The app also includes a navigation menu  that allows users to easily access different features, such as their product history, settings, and additional resources.
 
 <img src="images/history.jpeg" alt="history" width="200"/>
-<!-- ![spash screen](images/history.jpeg) -->
+
+
+
+Frontend Code Repository
+To explore the frontend code of the GetAI mobile application, implemented using JavaScript's React Native framework tailored for both iOS and Android, you can visit the [frontend repository](https://github.com/GetAI-Solutions/getai-mobile-app). This repository also contains a brief README file that highlights the structure of the project, its purpose.
 
 
 **2. Barcode Scanning Module**
