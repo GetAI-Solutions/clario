@@ -90,8 +90,10 @@ Once inside the app, users can scan product barcodes using their smartphone came
 </p>
 
 The app also includes a navigation menu  that allows users to easily access different features, such as their product history, settings, and additional resources.
-
+</p>
 <img src="images/history.jpeg" alt="history" width="200"/>
+<img src="images/chat.jpeg" alt="chat" width="200"/>
+</p>
 
 To explore the frontend code of the GetAI mobile application, implemented using JavaScript's React Native framework tailored for both iOS and Android, you can visit the [frontend repository](https://github.com/GetAI-Solutions/getai-mobile-app). This repository also contains a brief README file that highlights the structure of the project, its purpose.
 
