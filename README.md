@@ -95,13 +95,13 @@ The app also includes a navigation menu  that allows users to easily access diff
 
 
 
-Frontend Code Repository
+**Frontend Code Repository**
 To explore the frontend code of the GetAI mobile application, implemented using JavaScript's React Native framework tailored for both iOS and Android, you can visit the [frontend repository](https://github.com/GetAI-Solutions/getai-mobile-app). This repository also contains a brief README file that highlights the structure of the project, its purpose.
 
 
 **2. Barcode Scanning Module**
 
- **Scanning Technology**:Our system utilizes the camera on a smartphone to scan barcodes. The camera captures the barcode image, and advanced image processing algorithms are employed to accurately decode the barcode, ensuring that even low-quality images or distorted barcodes can be read effectively.
+ **Scanning Technology**:Our system utilizes the camera on a smartphone to scan barcodes. The camera captures the barcode image, and advanced image processing algorithms, including the use of the Python library pyzbar, are employed to accurately decode the barcode. This ensures that even low-quality images or distorted barcodes can be read effectively.
 
   **Data Extraction**: Once the barcode is scanned, the system reads the encoded data and retrieves the relevant product information from our database. The application cross-references the barcode with entries in our MongoDB database to pull up detailed product information. If the product isn't found in the database, alternative methods like external API queries or web scraping are triggered to provide the user with relevant information. This ensures that users receive accurate and timely product data, regardless of the barcode source.
 
@@ -111,6 +111,7 @@ To explore the frontend code of the GetAI mobile application, implemented using 
   2. **Product Database**: All product information is stored in a well-organized MongoDB database. This database includes comprehensive details such as usage instructions, safety guidelines, ingredient lists, and other relevant information. The database is continuously updated with new products, ensuring that users receive the most current and accurate data. Additionally, the database is designed to handle large volumes of data efficiently, allowing for quick retrieval and processing of information.
 
 **4. Backend Infrastructure**
+
 
 **5. Feedback and Improvement Loop**
 **Feedback Collection**: Users can provide feedback through various channels, such as in-app feedback forms, surveys, and direct support interactions. This feedback is used to identify areas for improvement and to address user concerns.
