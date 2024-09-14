@@ -94,7 +94,7 @@ Once inside the app, users can scan product barcodes using their smartphone came
 </p>
 
 The app also includes a navigation menu  that allows users to easily access different features, such as their product history, settings, and additional resources.
-</p>
+<p align="center">
 <img src="images/history.jpeg" alt="history" width="200"/>
 <img src="images/chat.jpeg" alt="chat" width="200"/>
 </p>
