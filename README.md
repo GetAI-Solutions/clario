@@ -1,5 +1,9 @@
 # Clario.ai: AI-Powered Barcode Scanner and Chatbot
 
+you can visit our [Backend Repository](https://github.com/GetAI-Solutions/AI-backend).
+
+you can visit the [frontend repository](https://github.com/GetAI-Solutions/getai-mobile-app)
+
 ## Overview
 
 Clario.ai is an AI-powered barcode scanning system developed by our team for the A2SV Hackathon. Our goal is to provide comprehensive and understandable product information to consumers in Africa, addressing the gap in localized and easily accessible usage instructions, safety guidelines, and detailed descriptions.
@@ -105,11 +109,19 @@ To explore the frontend code of the Clario.ai mobile application, implemented us
   **Data Extraction**: Once the barcode is scanned, the system reads the encoded data and retrieves the relevant product information from our database. The application cross-references the barcode with entries in our MongoDB database to pull up detailed product information. If the product isn't found in the database, alternative methods like external API queries or web scraping are triggered to provide the user with relevant information. This ensures that users receive accurate and timely product data, regardless of the barcode source.
 
   **3. AI-Powered Product Information Retrieval**
-  1. **AI Integration**: Our system apply AI models to interpret and provide accurate product information. By utilizing generative AI, the system can analyze barcode data and cross-reference it with our database to pull detailed product information. The AI models are trained to recognize product categories, interpret ingredient lists, and provide safety guidelines based on the scanned barcode. If the product isn't found in our database, AI assists in fetching relevant information from alternative sources, ensuring that users always have access to accurate and reliable data.
+  
+   **AI Integration**: Our system apply AI models to interpret and provide accurate product information. By utilizing generative AI, the system can analyze barcode data and cross-reference it with our database to pull detailed product information. The AI models are trained to recognize product categories, interpret ingredient lists, and provide safety guidelines based on the scanned barcode. If the product isn't found in our database, AI assists in fetching relevant information from alternative sources, ensuring that users always have access to accurate and reliable data.
 
-  2. **Product Database**: All product information is stored in a well-organized MongoDB database. This database includes comprehensive details such as usage instructions, safety guidelines, ingredient lists, and other relevant information. The database is continuously updated with new products, ensuring that users receive the most current and accurate data. Additionally, the database is designed to handle large volumes of data efficiently, allowing for quick retrieval and processing of information.
+   **Product Database**: All product information is stored in a well-organized MongoDB database. This database includes comprehensive details such as usage instructions, safety guidelines, ingredient lists, and other relevant information. The database is continuously updated with new products, ensuring that users receive the most current and accurate data. Additionally, the database is designed to handle large volumes of data efficiently, allowing for quick retrieval and processing of information.
 
 **4. Backend Infrastructure**
+
+The GetAI backend is built with FastAPI and includes essential features such as user authentication (supporting signup, login, and OTP verification), product management (handling the uploading, retrieval, and summarization of product details based on barcode data), and barcode scanning (using advanced image processing techniques to extract barcode data from images). The backend also integrates AI-powered responses via the OpenAI API, manages user history, and uses MongoDB for data storage. 
+
+For more details on the backend implementation, you can visit our [Backend Repository](https://github.com/GetAI-Solutions/AI-backend).
+
+
+
 
 
 **5. Feedback and Improvement Loop**
