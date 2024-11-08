@@ -1,8 +1,8 @@
-# GetAI: AI-Powered Barcode Scanner and Chatbot
+# Clario.ai: AI-Powered Barcode Scanner and Chatbot
 
 ## Overview
 
-GetAI is an AI-powered barcode scanning system developed by our team for the A2SV Hackathon. Our goal is to provide comprehensive and understandable product information to consumers in Africa, addressing the gap in localized and easily accessible usage instructions, safety guidelines, and detailed descriptions.
+Clario.ai is an AI-powered barcode scanning system developed by our team for the A2SV Hackathon. Our goal is to provide comprehensive and understandable product information to consumers in Africa, addressing the gap in localized and easily accessible usage instructions, safety guidelines, and detailed descriptions.
 
 ## Problem Statement
 
@@ -10,7 +10,7 @@ Consumers in Africa face significant challenges in accessing detailed product in
 
 ## Solution
 
-GetAI aims to solve these challenges by offering a user-friendly, AI-driven barcode scanning system that provides detailed product information in multiple local languages. Our solution ensures accessibility, safety, and enhanced consumer trust by delivering comprehensive information about products, including:
+Clario.ai aims to solve these challenges by offering a user-friendly, AI-driven barcode scanning system that provides detailed product information in multiple local languages. Our solution ensures accessibility, safety, and enhanced consumer trust by delivering comprehensive information about products, including:
 
 - Usage instructions
 - Safety guidelines
@@ -20,7 +20,7 @@ GetAI aims to solve these challenges by offering a user-friendly, AI-driven barc
 
 ## Current Methods of Gathering Product Information
 
-Currently, consumers in Africa rely on various methods to gather product information due to the lack of comprehensive solutions like GetAI:
+Currently, consumers in Africa rely on various methods to gather product information due to the lack of comprehensive solutions like Clario.ai:
 
 - **Manual Online Searches**: Time-consuming and often yielding inaccurate or incomplete results.
 - **Manufacturer Websites**: Limited information and often difficult to navigate.
@@ -29,11 +29,11 @@ Currently, consumers in Africa rely on various methods to gather product informa
 - **Social Media Influencers**: Influencer reviews may not be comprehensive or unbiased.
 - **Local Market Knowledge**: Reliance on community recommendations, particularly in rural or less digitally connected areas.
 
-These methods highlight the gaps in accessing comprehensive, standardized, and easily accessible product information, underscoring the need for a robust solution like GetAI.
+These methods highlight the gaps in accessing comprehensive, standardized, and easily accessible product information, underscoring the need for a robust solution like Clario.ai.
 
-## Why Choose GetAI?
+## Why Choose Clario.ai?
 
-Consumers should choose GetAI over alternative methods for several reasons:
+Consumers should choose Clario.ai over alternative methods for several reasons:
 
 - **Comprehensive Information**: Advanced AI and LLM technology provide detailed usage instructions, safety guidelines, ingredient lists, similar products, and locally made alternatives.
 - **Multilingual Support**: Support for multiple local languages ensures accessibility to a diverse user base across Africa.
@@ -52,14 +52,14 @@ Consumers should choose GetAI over alternative methods for several reasons:
 
 
 ## PURPOSE OF THE PROJECT
-The purpose of the GetAI project is to create an AI-powered barcode scanner and chatbot that helps people in Africa easily access important product information. Many consumers in Africa struggle to find clear and detailed information about products, especially in the areas of beauty, healthcare, and food. This lack of information can lead to improper product use and health risks. GetAI aims to solve this problem by providing a simple way for users to scan barcodes and receive comprehensive product details in their local languages. This includes usage instructions, safety guidelines, ingredient lists, and even suggestions for similar products or local alternatives. The goal is to make product information accessible, accurate, and relevant, empowering consumers to make informed and safe choices
+The purpose of the Clario.ai project is to create an AI-powered barcode scanner and chatbot that helps people in Africa easily access important product information. Many consumers in Africa struggle to find clear and detailed information about products, especially in the areas of beauty, healthcare, and food. This lack of information can lead to improper product use and health risks. Clario.ai aims to solve this problem by providing a simple way for users to scan barcodes and receive comprehensive product details in their local languages. This includes usage instructions, safety guidelines, ingredient lists, and even suggestions for similar products or local alternatives. The goal is to make product information accessible, accurate, and relevant, empowering consumers to make informed and safe choices
 
 ## STRUCTURE OF THE PROJECT
 
 1. **User Interface**
 
 **Mobile App**
-The user interface of the GetAI app is designed to be user-friendly and intuitive. Users interact with the app by opening it on their smartphone, where they are greeted with a clean and simple splash screen.
+The user interface of the Clario.ai app is designed to be user-friendly and intuitive. Users interact with the app by opening it on their smartphone, where they are greeted with a clean and simple splash screen.
 <p>
 <img src="images/splash screen.jpeg" alt="history" width="200"/>
 <img src="images/account.jpeg" alt="history" width="200"/>
@@ -90,12 +90,12 @@ Once inside the app, users can scan product barcodes using their smartphone came
 </p>
 
 The app also includes a navigation menu  that allows users to easily access different features, such as their product history, settings, and additional resources.
-</p>
+<p align="center">
 <img src="images/history.jpeg" alt="history" width="200"/>
 <img src="images/chat.jpeg" alt="chat" width="200"/>
 </p>
 
-To explore the frontend code of the GetAI mobile application, implemented using JavaScript's React Native framework tailored for both iOS and Android, you can visit the [frontend repository](https://github.com/GetAI-Solutions/getai-mobile-app). This repository also contains a brief README file that highlights the structure of the project, its purpose.
+To explore the frontend code of the Clario.ai mobile application, implemented using JavaScript's React Native framework tailored for both iOS and Android, you can visit the [frontend repository](https://github.com/getai.ai-Solutions/getai-mobile-app). This repository also contains a brief README file that highlights the structure of the project, its purpose.
 
 
 **2. Barcode Scanning Module**
@@ -135,7 +135,7 @@ We selected (our model) to help solve the problem of providing detailed, accessi
 
 ## Installation and Setup
 
-To get started with GetAI, follow these steps to install the necessary libraries and tools:
+To get started with Clario.ai, follow these steps to install the necessary libraries and tools:
 
 1. **Ensure Python 3.x is installed on your machine**:
     - Download and install Python from the [official website](https://www.python.org/downloads/).
@@ -168,7 +168,7 @@ For detailed installation instructions and troubleshooting, refer to our [docume
 
 ## Contributing
 
-Currently, GetAI is not an open-source project. However, we welcome contributions from partners and collaborators who share our vision of enhancing consumer access to product information in Africa.
+Currently, Clario.ai is not an open-source project. However, we welcome contributions from partners and collaborators who share our vision of enhancing consumer access to product information in Africa.
 
 If you are interested in contributing to our project, please contact us at [contact@getai.com](Obimbaking@gmail.com) for more information on partnership opportunities and collaboration.
 
